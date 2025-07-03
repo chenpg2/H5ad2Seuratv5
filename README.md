@@ -60,11 +60,9 @@ install.packages(c("dplyr", "ggplot2", "patchwork"))
 ### 1. Basic Conversion
 
 ```bash
-# Convert a single h5ad file
-python h5ad_to_seurat_converter.py your_data.h5ad
-
 # With custom output directory and prefix
-python h5ad_to_seurat_converter.py your_data.h5ad -o output_dir -p my_data
+python h5ad_to_seurat_converter.py your_data.h5ad -o output_dir -p your_data
+
 ```
 
 ### 2. Load in Seurat
@@ -92,10 +90,6 @@ DimPlot(seurat_obj, reduction = "umap")
 ### Single File Conversion
 
 ```bash
-# Basic conversion
-python h5ad_to_seurat_converter.py data/adata_celltype.h5ad
-
-# Advanced options
 python h5ad_to_seurat_converter.py data/adata_celltype.h5ad \
   --output_dir seurat_objects \
   --prefix experiment_1
