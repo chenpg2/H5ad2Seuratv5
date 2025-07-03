@@ -18,10 +18,6 @@
 2. **`create_seurat_from_csv.R`** - CSV到RDS转换脚本
 3. **`convert_h5ad_to_rds.R`** - 直接h5ad到RDS转换脚本
 
-### 辅助工具
-4. **`example_workflow.py`** - 批量处理工具
-5. **`test_converter.py`** - 测试验证工具
-
 ## 🛠 环境要求
 
 ### Python环境
