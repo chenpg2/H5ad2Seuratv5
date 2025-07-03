@@ -26,9 +26,7 @@ A comprehensive toolkit for converting AnnData objects (h5ad files) to Seurat ob
 - [Advanced Usage](#advanced-usage)
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Citation](#citation)
-
+- 
 ## 🛠 Installation
 
 ### Python Dependencies
@@ -255,51 +253,6 @@ This toolkit is particularly useful for:
 - **Collaborative Research**: Sharing data between teams using different tools
 - **Method Comparison**: Comparing results from different analysis pipelines
 - **Publication Workflows**: Preparing data for different visualization requirements
-
-## 🏆 Success Stories
-
-The toolkit has been successfully used for:
-- Human testis single-cell RNA-seq analysis (90k+ cells)
-- Multi-sample integration studies
-- Cell type annotation workflows
-- Developmental trajectory analysis
-
-## 📚 Documentation
-
-- [Detailed Usage Guide](README_h5ad_conversion.md)
-- [API Documentation](docs/api.md)
-- [Troubleshooting Guide](docs/troubleshooting.md)
-- [Best Practices](docs/best_practices.md)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Scanpy](https://scanpy.readthedocs.io/) for Python single-cell analysis
-- [Seurat](https://satijalab.org/seurat/) for R single-cell analysis
-- [SeuratDisk](https://github.com/mojaveazure/seurat-disk) for h5ad support in R
-- The single-cell genomics community for valuable feedback
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/h5ad-to-seurat-converter/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/h5ad-to-seurat-converter/discussions)
-- **Email**: your.email@domain.com
-
-## 📈 Citation
-
-If you use this toolkit in your research, please cite:
-
-```bibtex
-@software{h5ad_to_seurat_converter,
-  title={H5AD to Seurat Converter: Seamless Integration Between Python and R Single-Cell Analysis},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/yourusername/h5ad-to-seurat-converter}
-}
-```
 
 ---
 
